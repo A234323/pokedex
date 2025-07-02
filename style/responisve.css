@@ -1,0 +1,448 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    /* header */
+
+    header div {
+        display: flex;
+        align-items: center;
+        gap: none;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    #search {
+        font-size: 15px;
+    }
+
+    /* MAIN */
+    #pokemon-container {
+        padding: 1pc;
+        gap: 2pc;
+    }
+
+    .no-result .poke-name {
+        font-size: 16px;
+    }
+
+    .poke-descripton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poke-card {
+        border-radius: 1pc;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .poke-img {
+        width: 8pc;
+    }
+
+
+    .poke-card {
+        border-radius: 1pc;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .poke-types {
+        display: block;
+    }
+
+    .poke-types h2 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    /* POPUP */
+
+    .popup {
+        width: 66%;
+    }
+
+    .popup img {
+        width: 11pc;
+    }
+
+    .tab-btn {
+        font-size: 12px;
+    }
+
+    .popup-close button {
+        font-size: 20px;
+    }
+
+    .popup-arrow {
+        font-size: 20px;
+    }
+
+    .popup-design {
+        font-size: 14px;
+    }
+
+    .badge {
+        font-size: 10px;
+    }
+
+    .popup-content {
+        font-size: 10px;
+        gap: 0px;
+    }
+
+    /* FOOTER */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main {
+        flex: 1;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    /* header */
+
+
+
+    /* MAIN */
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        padding: 4px;
+        flex-direction: column;
+
+    }
+
+    .no-result .poke-name {
+        font-size: 18px;
+    }
+
+
+    .poke-img {
+        width: 8pc;
+    }
+
+    /* POPUP */
+
+    .popup img {
+        width: 13pc;
+    }
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .badge {
+        font-size: 14px;
+    }
+
+    .popup-design {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        padding: 4px;
+        flex-direction: column;
+
+    }
+
+    .poke-name {
+        font-size: 18px;
+    }
+
+
+    .poke-img {
+        width: 8pc;
+    }
+
+    /* POPUP */
+
+    .popup img {
+        width: 15pc;
+    }
+
+    .badge {
+        font-size: 17px;
+    }
+
+
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .popup-design {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        padding: 4px;
+        flex-direction: column;
+
+    }
+
+    .no-result .poke-name {
+        font-size: 18px;
+    }
+
+
+    .poke-img {
+        width: 9pc;
+    }
+
+    /* POPUP */
+
+    .popup img {
+        width: 17pc;
+    }
+
+    .badge {
+        font-size: 20px;
+    }
+
+
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .popup-design {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    /* HEAD */
+
+    #search {
+        font-size: 1.5rem;
+    }
+
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        padding: 4px;
+        flex-direction: column;
+
+    }
+
+    .no-result .poke-name {
+        font-size: 18px;
+    }
+
+
+    .poke-img {
+        width: 10pc;
+    }
+
+    /* POPUP */
+    .popup {
+        max-width: 450px;
+        width: 25% 728px;
+    }
+
+    .popup img {
+        width: 19pc;
+    }
+
+    .badge {
+        font-size: 21px;
+    }
+
+    .tab-btn {
+        font-size: 20px;
+    }
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .popup-design {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1920px) {
+    /* HEAD */
+
+    #search {
+        font-size: 2rem;
+    }
+
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        width: 16pc;
+        padding: 4px;
+        flex-direction: column;
+
+    }
+
+    .no-result .poke-name {
+        font-size: 25px;
+    }
+
+
+    .poke-img {
+        width: 15pc;
+    }
+
+    .poke-types {
+        font-size: 2pc;
+    }
+
+    /* POPUP */
+
+    .popup {
+        max-width: 600px;
+        width: 23% 709.313px;
+    }
+
+    .popup img {
+        width: 21pc;
+    }
+
+    .badge {
+        font-size: 28px;
+    }
+
+    .popup-content {
+        font-size: 28px;
+    }
+
+    .tab-btn {
+        font-size: 30px;
+    }
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .popup-design {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 2560px) {
+    /* HEAD */
+
+    #search {
+        font-size: 2rem;
+    }
+
+    .poke-card {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 1pc;
+        padding: 24px;
+        flex-direction: column;
+
+    }
+
+    .no-result .poke-name {
+        font-size: 28px;
+    }
+
+    #load-more {
+        font-size: 2pc;
+    }
+
+    .poke-img {
+        width: 15pc;
+    }
+
+    .poke-types {
+        font-size: 2pc;
+    }
+
+    /* POPUP */
+
+    .popup {
+        max-width: 600px;
+        width: 30%;
+    }
+
+    .popup img {
+        width: 23pc;
+    }
+
+    .popup-close button {
+        font-size: 3rem;
+    }
+
+    .popup-arrow {
+        font-size: 3rem;
+    }
+
+    .badge {
+        font-size: 40px;
+    }
+
+    .popup-content {
+        font-size: 34px;
+    }
+
+    .tab-btn {
+        font-size: 32px;
+    }
+
+    .popup-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .popup-design {
+        font-size: 34px;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: 1.9rem;
+    }
+}

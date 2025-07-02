@@ -1,0 +1,183 @@
+.poke-card.type-fire,
+.popup.type-fire {
+  background-color: #f08030;
+}
+
+.poke-card.type-water,
+.popup.type-water {
+  background-color: #6890f0;
+}
+
+.poke-card.type-grass,
+.popup.type-grass {
+  background-color: #78c850;
+}
+
+.poke-card.type-electric,
+.popup.type-electric {
+  background-color: #f8d030;
+}
+
+.poke-card.type-psychic,
+.popup.type-psychic {
+  background-color: #f85888;
+}
+
+.poke-card.type-ice,
+.popup.type-ice {
+  background-color: #98d8d8;
+}
+
+.poke-card.type-dragon,
+.popup.type-dragon {
+  background-color: #7038f8;
+}
+
+.poke-card.type-dark,
+.popup.type-dark {
+  background-color: #705848;
+}
+
+.poke-card.type-fairy,
+.popup.type-fairy {
+  background-color: #ee99ac;
+}
+
+.poke-card.type-normal,
+.popup.type-normal {
+  background-color: #a8a878;
+}
+
+.poke-card.type-fighting,
+.popup.type-fighting {
+  background-color: #c03028;
+}
+
+.poke-card.type-flying,
+.popup.type-flying {
+  background-color: #a890f0;
+}
+
+.poke-card.type-poison,
+.popup.type-poison {
+  background-color: #a040a0;
+}
+
+.poke-card.type-ground,
+.popup.type-ground {
+  background-color: #e0c068;
+}
+
+.poke-card.type-rock,
+.popup.type-rock {
+  background-color: #b8a038;
+}
+
+.poke-card.type-bug,
+.popup.type-bug {
+  background-color: #a8b820;
+}
+
+.poke-card.type-ghost,
+.popup.type-ghost {
+  background-color: #705898;
+}
+
+.poke-card.type-steel,
+.popup.type-steel {
+  background-color: #b8b8d0;
+}
+
+
+.type-symbol.fire::before {
+  content: "🔥";
+}
+
+.type-symbol.water::before {
+  content: "💧";
+}
+
+.type-symbol.grass::before {
+  content: "🌿";
+}
+
+.type-symbol.electric::before {
+  content: "⚡";
+}
+
+.type-symbol.psychic::before {
+  content: "🔮";
+}
+
+.type-symbol.ice::before {
+  content: "❄️";
+}
+
+.type-symbol.dragon::before {
+  content: "🐉";
+}
+
+.type-symbol.dark::before {
+  content: "🌑";
+}
+
+.type-symbol.fairy::before {
+  content: "✨";
+}
+
+.type-symbol.normal::before {
+  content: "🔘";
+}
+
+.type-symbol.fighting::before {
+  content: "🥊";
+}
+
+.type-symbol.flying::before {
+  content: "🌬️";
+}
+
+.type-symbol.poison::before {
+  content: "☠️";
+}
+
+.type-symbol.ground::before {
+  content: "🌍";
+}
+
+.type-symbol.rock::before {
+  content: "🪨";
+}
+
+.type-symbol.bug::before {
+  content: "🐛";
+}
+
+.type-symbol.ghost::before {
+  content: "👻";
+}
+
+.type-symbol.steel::before {
+  content: "⚙️";
+}
+
+.poke-types {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.poke-type {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.type-symbol {
+  display: inline-block;
+  margin: 0 0.25rem;
+}

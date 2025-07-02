@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon/icon.png" type="image/x-icon">
+    <title>Pokedex</title>
+
+    <script src="./script/Api_Pokemon.js" defer></script>
+    <script src="./script/renderLoad.js" defer></script>
+
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/layout.css">
+    <link rel="stylesheet" href="./style/types.css">
+    <link rel="stylesheet" href="./style/popup.css">
+    <link rel="stylesheet" href="./style/responisve.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div>
+                <img src="./assets/img/pokemon_Header.png" alt="Pokédex Logo">
+                <input type="search" name="pokemon" id="search" placeholder="Search Pokemon..." />
+            </div>
+        </header>
+        <main>
+            <section id="card-list">
+                <div id="pokemon-container"></div>
+            </section>
+            <section id="loader">
+                <div id="loading" class="hidden">Loading...</div>
+            </section>
+            <section id="loadmore-button">
+                <button id="load-more" class="hidden">Load More</button>
+            </section>
+            <section id="popup"></section>
+        </main>
+        <footer>
+            <section>
+                <a href="impressum.html">Impressum</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </section>
+        </footer>
+    </div>
+</body>
+
+<template id="card-template">
+    <div class="poke-card">
+        <img class="poke-img" alt="Pokémon-Bild" />
+        <div class="poke-descripton">
+            <h2 class="poke-name"></h2>
+        </div>
+    </div>
+</template>
+
+<template id="popup-template">
+    <div class="popup">
+        <div class="popup-close"><button>X</button></div>
+        <div class="popup-header">
+            <div class="popup-design">
+                <img class="popup-img" alt="Pokémon Großbild" />
+                <h2 class="popup-name"></h2>
+            </div>
+        </div>
+        <div class="popup-tabs">
+            <button class="tab-btn" data-tab="types">Types</button>
+            <button class="tab-btn" data-tab="abilities">Abilities</button>
+            <button class="tab-btn" data-tab="stats">Stats</button>
+        </div>
+        <div class="popup-content"></div>
+    </div>
+</template>
+
+</html>
